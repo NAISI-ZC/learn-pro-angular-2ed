@@ -6,4 +6,5 @@ import { StaticDataSource } from './static.datasource';
     providers: [ProductRepository, StaticDataSource]
 })
 
-export class ModelModule { }
+export class ModelModule {
+}

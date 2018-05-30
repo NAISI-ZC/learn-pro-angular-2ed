@@ -12,7 +12,7 @@
     <div *ngFor="let product of products" class="card border-primary mb-2">
         <h4 class="card-header">{{ product.name }}
             <span class="badge badge-pill badge-primary float-right">
-                {{ product.price | number: '2.2-2' | currency }}
+                {{ product.price | currency:"USD":"symbol-narrow":".2" }}
             </span>
         </h4>
         <div class="card-text p-3">

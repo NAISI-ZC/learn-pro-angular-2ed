@@ -3,10 +3,12 @@ import { Cart } from '../model/cart.model';
 
 @Component({
     moduleId: module.id,
-    templateUrl: 'cartDetail.component.html'
+    selector: 'cart-summary',
+    templateUrl: 'cartSummary.component.html'
 })
 
-export class CartDetailComponent {
+export class CartSummaryComponent {
+
     constructor(public cart: Cart) {
     }
 }
