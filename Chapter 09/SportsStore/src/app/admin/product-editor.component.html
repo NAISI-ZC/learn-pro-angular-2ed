@@ -20,7 +20,7 @@
         <label>Price</label>
         <input class="form-control" name="price" [(ngModel)]="product.price"/>
     </div>
-    <button type="submit" class="btn btn-primary" [class.btn-warning]="editing">
+    <button type="submit" class="btn btn-primary mr-2" [class.btn-warning]="editing">
         {{editing ? "Save" : "Create"}}
     </button>
     <button type="reset" class="btn btn-secondary" routerLink="/admin/main/products">

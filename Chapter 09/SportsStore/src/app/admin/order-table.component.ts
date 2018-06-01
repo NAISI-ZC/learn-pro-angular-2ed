@@ -4,7 +4,7 @@ import { Order } from '../model/order.model';
 
 @Component({
     moduleId: module.id,
-    templateUrl: 'orderTable.component.html'
+    templateUrl: 'order-table.component.html'
 })
 export class OrderTableComponent {
     includeShipped = false;

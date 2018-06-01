@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Order } from './order.model';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { RestDataSource } from './rest.datasource';
 
 @Injectable()

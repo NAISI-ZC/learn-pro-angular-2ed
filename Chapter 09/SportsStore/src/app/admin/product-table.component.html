@@ -15,7 +15,7 @@
         <td>{{ p.category }}</td>
         <td>{{ p.price | currency:"USD":"symbol-narrow":".2" }}</td>
         <td>
-            <button class="btn btn-sm btn-warning" [routerLink]="['/admin/main/products/edit', p.id]">
+            <button class="btn btn-sm btn-warning mr-2" [routerLink]="['/admin/main/products/edit', p.id]">
                 Edit
             </button>
             <button class="btn btn-sm btn-danger" (click)="deleteProduct(p.id)"> Delete

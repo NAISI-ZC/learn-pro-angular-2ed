@@ -6,7 +6,7 @@ import { NgForm } from '@angular/forms';
 
 @Component({
     moduleId: module.id,
-    templateUrl: 'productEditor.component.html'
+    templateUrl: 'product-editor.component.html'
 })
 export class ProductEditorComponent {
     editing = false;
