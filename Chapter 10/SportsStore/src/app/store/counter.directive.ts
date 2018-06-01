@@ -16,12 +16,7 @@ export class CounterDirective implements OnChanges {
         this.container.clear();
         for (let i = 0; i < this.appCounterOf; i++) {
             this.container.createEmbeddedView(this.template,
-                new CounterDirectiveContext(i + 1));
+                {$implicit: i + 1});
         }
-    }
-}
-
-class CounterDirectiveContext {
-    constructor(public $implicit: any) {
     }
 }

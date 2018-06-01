@@ -5,7 +5,7 @@ import { Cart } from '../model/cart.model';
 import { Router } from '@angular/router';
 
 @Component({
-    selector: 'store',
+    selector: 'app-store',
     moduleId: module.id,
     templateUrl: 'store.component.html'
 })
